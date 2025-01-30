@@ -1,0 +1,42 @@
+[{
+  "src": "",
+  "rango": "Hierro",
+  "peak": "Diamante",
+  "user": "PepitoGamer12#LAN",
+  "profile": "https://imgsvc.trackercdn.com/url/size(128),fit(cover)/https%3A%2F%2Ftitles.trackercdn.com%2Fvalorant-api%2Fplayercards%2F1ec054a0-4184-8802-57fb-0ab81599befd%2Fdisplayicon.png/image.jpg",
+  "winrate": 10,
+  "headshot": 4,
+  "kd": 0.5,
+  "kround": 0.1,
+  "horas": 40,
+  "agentes": ["Reyna", "Jett", "Iso"],
+  "visto": false
+},
+{
+  "src": "",
+  "rango": "Bronce",
+  "peak": "Ascendente",
+  "user": "BenitoKamela48#PEPE",
+  "profile": "https://imgsvc.trackercdn.com/url/size(128),fit(cover)/https%3A%2F%2Ftitles.trackercdn.com%2Fvalorant-api%2Fplayercards%2F0bc3b158-40b0-ab2a-4b8b-04be15e3b7d1%2Fdisplayicon.png/image.jpg",
+  "winrate": 30,
+  "headshot": 30,
+  "kd": 2.5,
+  "kround": 1.6,
+  "horas": 730,
+  "agentes": ["Clove", "Viper", "Astra"],
+  "visto": false
+},
+{
+  "src": "",
+  "rango": "Radiante",
+  "peak": "Radiante",
+  "user": "Elmasteton83#TILIN",
+  "profile": "https://imgsvc.trackercdn.com/url/size(128),fit(cover)/https%3A%2F%2Ftitles.trackercdn.com%2Fvalorant-api%2Fplayercards%2Fbc4c264d-4105-228b-3b3c-09b15c4f8e71%2Fdisplayicon.png/image.jpg",
+  "winrate": 99,
+  "headshot": 60,
+  "kd": 3.5,
+  "kround": 2.6,
+  "horas": 1040,
+  "agentes": ["Gekko", "Jett", "Reyna"],
+  "visto": false
+}]
