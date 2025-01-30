@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Adivina el rango - Valorant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" sizes="32x32" type="image/png" href="sources/favicon-16x16.png">
+	<link rel="icon" sizes="16x16" type="image/png" href="sources/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="container-left"></div>
+		<div class="container-center">
+			<div class="player-info">
+				<div class="info-pfp"><img src="./sources/perfil.webp" alt=""></div>
+				<div class="info-user">Anonimo<i>#ID</i></div>
+			</div>
+			<div id="video">
+			</div>
+			<div class="check-container">
+				<button id="check-answer-btn" class="b-rojo">Puntuar</button>
+				<button id="check-container-next" class="b-rojo" style="display: none;">Siguiente</button>
+			</div>
+		</div>
+		<div class="container-right">
+			<div class="player-stats">
+				<div class="stats-title">ESTADISTICAS</div>
+				<div class="stats-winrate">
+					<div class="winrate-title">PARTIDAS</div>
+					<div class="winrate-num">70</div>
+					<div class="count-container">
+						<div class="count-bar green" id="wins"></div>
+						<div class="count-bar red" id="loses"></div>
+					</div>
+				</div>
+				<div class="stats-headshot">
+					<div class="headshot-title">HEADSHOT%</div>
+					<div class="headshot-num">33%</div>
+					<div class="count-container">
+						<div class="count-bar red" id="headshot"></div>
+					</div>
+				</div>
+				<div class="stats-kd">
+					<div class="kd-title">K/D Ratio</div>
+					<div class="kd-num">1.2</div>
+					<div class="count-container">
+						<div class="count-bar red" id="kd"></div>
+					</div>
+				</div>
+				<div class="stats-kround">
+					<div class="kround-title">KILLS/ROUND</div>
+					<div class="kround-num">1.0</div>
+					<div class="count-container">
+						<div class="count-bar red" id="kround"></div>
+					</div>
+				</div>
+				<div class="stats-horas">
+					<div class="horas-title">HORAS(TODO)</div>
+					<div class="horas-num">1,283</div>
+					<div class="count-container">
+						<div class="count-bar red" id="horas"></div>
+					</div>
+				</div>
+				<div class="stats-agentes">
+					<div class="agentes-title">TOP AGENTES</div>
+					<div class="agentes-container">
+						<img id="agentes-0" src="#" alt="">
+						<img id="agentes-1" src="#" alt="">
+						<img id="agentes-2" src="#" alt="">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="container-rangos">
+			<div id="rangos"></div>
+		</div>
+		<div class="container-bottom"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>
