@@ -71,8 +71,9 @@ $(document).ready(function () {
     $('.info-user').html(`${nombreUwu[0]}<i>#${nombreUwu[1]}</i>`);
 
     // Actualizar las barras de estadísticas
-    $('#wins').css('width', calculateBarWidth(video.winrate, 100))
-    $('#loses').css('width', calculateBarWidth(100 - video.winrate, 100))
+    let totalGames = video.win + video.lose;
+    $('#wins').css('width', calculateBarWidth(video.win, totalGames))
+    $('#loses').css('width', calculateBarWidth(video.lose, totalGames))
     $('#headshot').css('width', calculateBarWidth(video.headshot, 100))
     $('#kd').css('width', calculateBarWidth(video.kd, 5))
     $('#kround').css('width', calculateBarWidth(video.kround, 5))
@@ -80,6 +81,12 @@ $(document).ready(function () {
     for (let i = 0; i < 3; i++) {
       $('#agentes-'+i).attr('src', `./personajes/${video.agentes[i]}.png`)
     }
+
+    $('.winrate-num').html(`W: ${video.win}  |  L: ${video.lose}`)
+    $('.headshot-num').text(`${video.headshot}%`)
+    $('.kd-num').text(video.kd)
+    $('.kround-num').text(video.kround)
+    $('.horas-num').text(video.horas)
   }
 
   // Función para comprobar si la opción seleccionada es la correcta
