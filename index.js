@@ -66,9 +66,9 @@ $(document).ready(function () {
     $('#check-answer-btn').show('slow');
     $('#check-container-next').hide('fast');
 
-    $('.info-pfp').attr('src', video.profile);
-    let nombreUwu = video.user.split('#')
-    $('.info-user').html(`${nombreUwu[0]}<i>#${nombreUwu[1]}</i>`);
+    // $('.info-pfp img').attr('src', video.profile);
+    // let nombreUwu = video.user.split('#')
+    // $('.info-user').html(`${nombreUwu[0]}<i>#${nombreUwu[1]}</i>`);
 
     // Actualizar las barras de estadísticas
     let totalGames = video.win + video.lose;
@@ -117,9 +117,14 @@ $(document).ready(function () {
 
   // Muestra la pantalla de resultado
   function generarResultado(info, rngslec, check, puntos) {
+    let nombreUwu = info.user.split('#')
     $('body').append(`
         <div class="resultado-box bg-negro"></div>
         <div class="resultado-container">
+          <div class="player-info">
+            <div class="info-pfp"><img src="${info.profile}" alt=""></div>
+            <div class="info-user">${nombreUwu[0]}<i>#${nombreUwu[1]}</i></div>
+          </div>
 		      <div class="resultado-titulo">RESULTADOS</div>
           <button class="resultado-close">X</button>
 		      <div class="resultado-adivinado">
