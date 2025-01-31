@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // Lista de videos con sus rangos correspondientes
 
-  const jsonUrl = 'https://raw.githubusercontent.com/N0itx/AdivinaRangosValorant/refs/heads/main/videos.json';
+  const jsonUrl = 'https://pastebin.com/raw/w4HqP9bX';
   var videosInfo = null;
 
   async function loadJson() {
